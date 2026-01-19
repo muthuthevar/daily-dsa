@@ -16,6 +16,6 @@ def generateParenthesis(n):
         if close_count < open_count:
             backtrack(current + ")", open_count, close_count + 1)
 
-        backtrack("", 0, 0)
+    backtrack("", 0, 0)
 
     return result
